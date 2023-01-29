@@ -6,16 +6,21 @@
 }
 
 :root {
-    --font-display: 'boska-variable', serif; 
+    --font-display: 'boska-variable', serif;
+
     --font-display-xl: 160px; 
+    
     --font-display-lg: 96px; 
+    --font-display-lg-weight: 500; 
+
     --font-display-md: 64px; 
 
     --font-display-sm: 24px; 
     --font-display-sm-weight: 900; 
 
     --font-body: 'Gothic A1', sans-serif; 
-    --font-body-md: 24px; 
+
+    --font-body-md: 20px; 
     --font-body-sm: 16px; 
 
     --color-neutral-800: #000000; 

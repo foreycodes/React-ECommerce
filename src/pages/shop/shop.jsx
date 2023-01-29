@@ -6,9 +6,6 @@ import './shop.css'
 const shop = () => {
   return (
     <div className="shop">
-        <div>
-            <h1>Forey Store</h1>
-        </div>
         <div className="products">
             <div className="products"> {PRODUCTS.map((product)=> 
             (<Product data={product}/>))}</div>

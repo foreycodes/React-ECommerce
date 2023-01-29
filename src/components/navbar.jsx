@@ -1,16 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { ShoppingCart } from 'phosphor-react'
+import "../App.css";
 import "./navbar.css";
 
 const navbar = () => {
   return (
     <div className="navbar">
-      <div className="links">
-        <h2>Hello</h2>
-        <Link to="/"> Shop </Link>
-        <Link to="/cart"> <ShoppingCart size={32}/></Link>
-      </div>
+        <Link to="/">Forey Furniture</Link>
+        <Link to="/cart"><ShoppingCart size={24}/></Link>
     </div>
   )
 }

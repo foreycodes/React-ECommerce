@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+
+@font-face {
+    font-family: 'boska-variable';
+    src: url('/src/assets/Boska-Variable.ttf');
+}
+
+:root {
+    --font-display: 'boska-variable', serif; 
+    --font-display-xl: 160px; 
+    --font-display-lg: 96px; 
+    --font-display-md: 64px; 
+
+    --font-display-sm: 24px; 
+    --font-display-sm-weight: 900; 
+
+    --font-body: 'Gothic A1', sans-serif; 
+    --font-body-md: 24px; 
+    --font-body-sm: 16px; 
+
+    --color-neutral-800: #000000; 
+    --color-neutral-700: #111111; 
+    --color-neutral-200: #F2EEE6; 
+    --color-neutral-100: #ffffff; 
+}
+
+
+
+
+

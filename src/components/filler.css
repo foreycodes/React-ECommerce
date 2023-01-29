@@ -1,0 +1,46 @@
+.filler-img {
+    display: block; 
+    margin: auto; 
+    height: 900px; 
+    border-radius: 999px; 
+    border-style: solid; 
+    border-width: 16px; 
+}
+
+.filler-wrapper {
+    position: relative; 
+}
+
+.filler-text-wrap {
+    display: flex; 
+    flex-direction: row; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    align-items: center; 
+    gap: 20px; 
+    font-style: var(--font-display); 
+    font-size: var(--font-display-xl); 
+    color: var(--color-neutral-200); 
+    font-weight: 500; 
+    position: absolute; 
+    z-index: 1; 
+    top: 35%; 
+    /* left: 100vw;   */
+    /* animation: slide 15s linear infinite; */
+}
+
+@keyframes slide {
+    0% {
+        transform: translate3d(0, 0, 0);
+      }
+      100% {
+        transform: translate3d(-100%, 0, 0); /* The image width */
+      }
+}
+
+
+
+.filler-text-wrap img {
+    height: 104px; 
+    width: 104px; 
+}

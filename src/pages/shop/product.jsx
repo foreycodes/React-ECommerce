@@ -1,15 +1,17 @@
 import React, { useContext } from 'react'
 import { ShopContext } from '../../context/shop-context'
+import "./shop.css"; 
+import "../../App.css";
 
 export const Product = (props) => {
-    const { id, productName, price, productImage } = props.data;
+    const { id, productName, price, type, productImage } = props.data;
     const { addToCart, cartItems } = useContext(ShopContext); 
 
     const cartItemAmount = cartItems[id]; 
   return (
     <div className="product">
-      <img src={productImage} alt={productName} height="100px"/>
-      <div className="description">
+      <img className="product-img" src={require(`../../assets/${type}/${productImage}`)} alt={productName}/>
+      <div className="product-description">
         <p> {productName} </p>
         <p> ${price} </p>
       </div> 
@@ -19,3 +21,4 @@ export const Product = (props) => {
     </div>
   )
 }
+

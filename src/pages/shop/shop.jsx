@@ -20,6 +20,7 @@ const Shop = () => {
                 {PRODUCTS.filter(p => p.type === category).map(p => <Product data={p} />)}
               </div>
           </div>
+          <div className="line"></div>
         </div> 
         )
       }

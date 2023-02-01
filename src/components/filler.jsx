@@ -1,20 +1,32 @@
-import React from 'react'
+import { React, useRef, useEffect } from 'react'
+import { motion, useAnimation } from "framer-motion"
+import { useInView } from "react-intersection-observer"
 import "../App.css";
 import "./filler.css"; 
 
-const filler = () => {
+const variant = {
+  visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
+  hidden: { opacity: 0, scale: 0 }
+};
+
+const Filler = () => {
   return (
     <div className="filler-container">
       <div className="filler-wrapper">
         <img className="filler-img" src={require("../assets/fillerImg.jpg")} alt="A table"></img>
-        <div className="filler-text-wrap">
-            Hand Crafted 
-            <img alt="star" src={require("../assets/Star.png")}></img>
-            Sustainable 
-            <img alt="star" src={require("../assets/Star.png")}></img>
-            Locally Sourced
-            <img alt="star" src={require("../assets/Star.png")}></img>
-          </div>
+        <div className="debug" style={{ overflow: "scroll" }}>
+          <motion.div
+          animate={{ x: 100 }}
+          initial={{ x: 0 }}
+          className="filler-text-wrap">
+              Hand Crafted 
+              <img alt="star" src={require("../assets/Star.png")}></img>
+              Sustainable 
+              <img alt="star" src={require("../assets/Star.png")}></img>
+              Locally Sourced
+              <img alt="star" src={require("../assets/Star.png")}></img>
+          </motion.div>
+        </div>
        </div>
        <div className="triple-filler-wrapper">
         <div className="triple-filler-img-wrapper">
@@ -32,4 +44,6 @@ const filler = () => {
   )
 }
 
-export default filler
+
+
+export default Filler

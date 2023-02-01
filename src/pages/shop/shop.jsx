@@ -2,17 +2,22 @@ import React from 'react'
 import { PRODUCTS } from '../../products'
 import { Product } from "./product"
 import './shop.css'
-import "../../App.css";
+import "../../App.css"
 
-const shop = () => {
+const Shop = () => {
   return (
     <div className="shop">
-        <div className="products">
-            <div className="products"> {PRODUCTS.map((product)=> 
-            (<Product data={product}/>))}</div>
-        </div>
+        <div className="products"> 
+        <div className="chairs"></div>
+          {PRODUCTS.map((product)=> {
+            if(product.type === "chairs") {
+              return <Product data={product}/> 
+            }
+          }
+        )}
+      </div>
     </div>
-  )
+  ); 
 }
 
-export default shop
+export default Shop

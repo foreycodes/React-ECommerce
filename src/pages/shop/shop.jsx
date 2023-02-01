@@ -1,28 +1,26 @@
-import React from 'react'
+import { React } from 'react'
 import { PRODUCTS } from '../../products'
 import { Product } from "./product"
 import './shop.css'
 import "../../App.css"
 
 const Shop = () => {
+  const category = [ "chairs", "tables" ]
   return (
     <div className="shop">
-      <div className="products"> 
-        <div className="chairs">
+      {
+        category.map((category, i) => 
+          <div key={i} className={`product-section ${category}`}>
           <div className="title-container">
-            <h2>Chairs</h2>
+            <h2>{category.toUpperCase()}</h2>
             <img alt="arrow" src={require("../../assets/arrow.png")}></img>
           </div>
-          {PRODUCTS.filter(p => p.type === "chairs").map(p => <Product data={p} />)}
-        </div>
-        <div className="tables">
-          <div className="title-container">
-            <h2>Tables</h2>
-            <img alt="arrow" src={require("../../assets/arrow.png")}></img>
+          <div className="product-container">
+          {PRODUCTS.filter(p => p.type === category).map(p => <Product data={p} />)}
           </div>
-          {PRODUCTS.filter(p => p.type === "tables").map(p => <Product data={p} />)}
-        </div>    
-      </div>
+        </div> 
+        )
+      }
     </div>
   ); 
 }

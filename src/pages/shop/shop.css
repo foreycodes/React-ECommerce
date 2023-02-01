@@ -1,0 +1,17 @@
+.shop {
+    background-color: var(--color-neutral-700); 
+    color: var(--color-neutral-100); 
+}
+
+.title-container h2 {
+    font-family: var(--font-display); 
+    font-size: var(--font-display-md); 
+}
+
+.product-section {
+    display: flex;
+}
+.product-container {
+    display: flex; 
+    flex-direction: row;
+}

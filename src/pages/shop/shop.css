@@ -3,15 +3,25 @@
     color: var(--color-neutral-100); 
 }
 
-.title-container h2 {
-    font-family: var(--font-display); 
+.category-title-container {
+    font-family: var(--font-display);
     font-size: var(--font-display-md); 
 }
 
 .product-section {
-    display: flex;
-}
-.product-container {
     display: flex; 
-    flex-direction: row;
+    gap: 210px; 
+    padding: 80px 0 80px 80px; 
+}
+
+.products-container {
+    width: 100%; 
+    display: flex; 
+    gap: 24px; 
+    overflow-x: scroll; 
+    white-space: nowrap; 
+}
+
+.products-container::-webkit-scrollbar {
+    display: none; 
 }

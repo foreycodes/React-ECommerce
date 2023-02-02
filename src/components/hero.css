@@ -13,5 +13,8 @@
 
 .hero-right-wrapper {
     width: 440px; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 24px;
 }
 

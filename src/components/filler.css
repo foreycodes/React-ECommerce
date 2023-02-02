@@ -20,7 +20,7 @@
         var(--color-neutral-100) 25%, 
         var(--color-neutral-700) 25%, 
         var(--color-neutral-700) 100%
-      );
+    );
 }
 
 .filler-text-wrap {
@@ -55,8 +55,8 @@
 }
 
 .triple-filler-wrapper {
+    /* padding: 0px 80px;  */
     display: flex; 
-    padding: 80px;  
     margin: auto; 
     justify-content: center; 
     align-items: center; 
@@ -64,10 +64,12 @@
 }
 
 .triple-filler-img-wrapper {
-    padding: 80px; 
+    padding: 4vw;
+    padding-left: 0vw;  
 }
 .triple-filler-img {
-    height: 540px; 
+    height: 100%; 
+    width: 560px; 
     border-radius: 999px; 
     border-style: solid; 
     border-width: 16px;  
@@ -82,7 +84,7 @@
 .filler-right-content {
     display: flex; 
     flex-direction: column; 
-    padding: 80px; 
+    padding: 4vw; 
     width: 35%; 
     gap: 60px;  
     color: var(--color-neutral-200); 

@@ -1,0 +1,18 @@
+.button {
+    border: 1px solid var(--color-neutral-700); 
+    font-family: var(--font-body); 
+    font-size: var(--font-size-md); 
+    border-radius: 999px; 
+    padding: 14px 28px; 
+    width: fit-content; 
+}
+.light {
+    color: var(--color-neutral-700); 
+    background-color: var(--color-neutral-100); 
+}
+
+.dark {
+    color: var(--color-neutral-100); 
+    background-color: var(--color-neutral-700); 
+    border: 1px solid var(--color-neutral-100); 
+}

@@ -29,7 +29,7 @@
     white-space: nowrap; 
     align-items: center; 
     gap: 20px; 
-    font-style: var(--font-display); 
+    font-family: var(--font-display); 
     font-size: var(--font-display-xl); 
     color: var(--color-neutral-200); 
     font-weight: 500; 
@@ -90,21 +90,9 @@
 
 .filler-right-content h2 {
     margin: 0; 
-    font-family: var(--font-display); 
-    font-size: var(--font-display-md); 
 }
 
 .filler-right-content p {
-    font-family: var(--font-body); 
     font-size: var(--font-body-sm); 
 }
 
-.filler-right-content button {
-    color: var(--color-neutral-100); 
-    background-color: var(--color-neutral-700); 
-    border-radius: 999px; 
-    padding: 14px 28px; 
-    font-family: var(--font-body); 
-    font-size: var(--font-body-md); 
-    width: 200px; 
-}

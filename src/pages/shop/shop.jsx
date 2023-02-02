@@ -17,10 +17,9 @@ const Shop = () => {
                 <img alt="arrow" src={require("../../assets/arrow.png")}></img>
               </div>
               <div className="products-container">
-                {PRODUCTS.filter(p => p.type === category).map(p => <Product data={p} />)}
+                {PRODUCTS.filter(prod => prod.type === category).map(prod => <Product data={prod} />)}
               </div>
           </div>
-          <div className="line"></div>
         </div> 
         )
       }

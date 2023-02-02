@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from "./button"
 import "../App.css";
 import "./hero.css";
 
@@ -12,7 +13,7 @@ const hero = () => {
           </div>
          <div className="hero-right-wrapper">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.</p>
-            <button>Shop collection</button>
+            <Button variant='light'/>
          </div>
       </div>
     </div>

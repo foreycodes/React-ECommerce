@@ -8,15 +8,6 @@
 .product-img {
     width: 368px; 
     height: 328px; 
-    border-radius: 8px; 
-}
-
-.product-description p {
-    font-family: var(--font-body); 
-}
-
-.product-name {
-    font-size: var(--font-body-md); 
 }
 
 .product-price {

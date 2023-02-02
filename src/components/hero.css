@@ -1,13 +1,6 @@
 .hero-wrapper h1 {
-    font-family: var(--font-display); 
-    font-size: var(--font-display-lg); 
     font-weight: var(--font-display-lg-weight);  
     margin: 0; 
-}
-
-.hero-wrapper p {
-    font-family: var(--font-body); 
-    font-size: var(--font-body-md); 
 }
 
 .hero-wrapper {
@@ -22,11 +15,3 @@
     width: 440px; 
 }
 
-.hero-wrapper button {
-    background-color: var(--color-neutral-100); 
-    padding: 14px 28px; 
-    color: var(--color-neutral-800); 
-    border-radius: 999px; 
-    font-family: var(--font-body); 
-    font-size: var(--font-body-md); 
-}

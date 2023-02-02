@@ -4,10 +4,8 @@
 }
 
 .category-title-container {
-    font-family: var(--font-display);
-    font-size: var(--font-display-md); 
     padding-right: 180px; 
-    box-shadow: 5px -20px 10px 12px var(--color-neutral-700);
+    /* box-shadow: 5px -20px 10px 12px var(--color-neutral-700); */
     z-index: 5; 
 }
 
@@ -28,10 +26,4 @@
 
 .products-container::-webkit-scrollbar {
     display: none; 
-}
-
-.line {
-    background-color: var(--color-neutral-100);
-    width: 500px; 
-    height: 5px; 
 }

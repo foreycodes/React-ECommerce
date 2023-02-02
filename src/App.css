@@ -82,7 +82,22 @@
     --color-neutral-100: #ffffff; 
 }
 
+p {
+  font-family: var(--font-body); 
+  font-size: var(--font-body-md); 
+}
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display); 
+}
+
+h1 { 
+  font-size: var(--font-display-lg); 
+}
+
+h2 {
+  font-size: var(--font-display-md); 
+}
 
 
 

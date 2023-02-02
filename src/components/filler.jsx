@@ -1,6 +1,7 @@
 import { React, useRef, useEffect } from 'react'
 import { motion, useAnimation } from "framer-motion"
 import { useInView } from "react-intersection-observer"
+import Button from "./button"
 import "../App.css";
 import "./filler.css"; 
 
@@ -36,7 +37,7 @@ const Filler = () => {
         <div className="filler-right-content">
           <h2>MODERNITY</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam similique esse officia dolores. Earum veritatis ad ipsum numquam maiores explicabo vitae atque repellat cupiditate! Voluptatum minus earum soluta at corporis?</p>
-          <button>Shop collection</button>
+          <Button variant='dark' />
         </div>
        </div>
     </div>

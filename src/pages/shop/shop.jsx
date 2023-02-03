@@ -1,6 +1,8 @@
 import { React } from 'react'
 import { PRODUCTS } from '../../products'
 import { Product } from "./product"
+import Hero from "../../components/hero"
+import Filler from "../../components/filler"
 import './shop.css'
 import "../../App.css"
 
@@ -8,6 +10,8 @@ const Shop = () => {
   const category = [ "chairs", "tables" ]
   return (
     <div className="shop">
+      <Hero />
+      <Filler />
       {
         category.map((category, i) => 
         <div className="category-section">

@@ -2,8 +2,8 @@ import React, { useContext } from 'react';
 import { PRODUCTS } from '../../products';
 import  { CartItem }  from './cartItem';
 import { ShopContext } from '../../context/shop-context';
-import { useNavigate } from "react-router-dom"; 
-
+import { useNavigate } from 'react-router-dom'; 
+import HeroImage from '../../components/heroimage'; 
 
 export const Cart = () => {
   // testing cart
@@ -16,7 +16,7 @@ export const Cart = () => {
   return (
     <div className="cart">
       <div>
-        <h1>Your Cart</h1>
+        <HeroImage />
       </div>
       <div className="cartItems">
         {PRODUCTS.map((product) => {

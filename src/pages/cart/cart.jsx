@@ -3,7 +3,8 @@ import { PRODUCTS } from '../../products';
 import  { CartItem }  from './cartItem';
 import { ShopContext } from '../../context/shop-context';
 import { useNavigate } from 'react-router-dom'; 
-import HeroImage from '../../components/heroimage'; 
+import './cart.css';
+import HeroImage from '../../components/cart/heroimage'; 
 
 export const Cart = () => {
   // testing cart
@@ -15,9 +16,9 @@ export const Cart = () => {
 
   return (
     <div className="cart">
-      <div>
         <HeroImage />
-      </div>
+        <h1 className="cart-title">YOUR CART</h1>
+        <div className="line"></div>
       <div className="cartItems">
         {PRODUCTS.map((product) => {
           if (cartItems[product.id] !== 0) {

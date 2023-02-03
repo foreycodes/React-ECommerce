@@ -8,6 +8,7 @@ export const PRODUCTS = [
         price: 2000.0,
         type: "chairs",
         productImage: "aimee.jpeg",
+        productNoBg: "aimee-bg.png"
     },
     {
         id: 2, 
@@ -15,6 +16,7 @@ export const PRODUCTS = [
         price: 350.0,
         type: "chairs",
         productImage: "declan.jpeg",
+        productNoBg: "declan-bg.png"
     },
     {
         id: 3, 
@@ -22,6 +24,8 @@ export const PRODUCTS = [
         price: 500.0,
         type: "chairs",
         productImage: "madrone.jpeg",
+        productNoBg: "madrone-bg.png"
+
     },
     {
         id: 4, 
@@ -29,62 +33,8 @@ export const PRODUCTS = [
         price: 1000.0,
         type: "chairs",
         productImage: "pomona.jpeg",
-    },
-    {
-        id: 1, 
-        productName: "Aimee Chair", 
-        price: 2000.0,
-        type: "chairs",
-        productImage: "aimee.jpeg",
-    },
-    {
-        id: 2, 
-        productName: "Declan Chair", 
-        price: 350.0,
-        type: "chairs",
-        productImage: "declan.jpeg",
-    },
-    {
-        id: 3, 
-        productName: "Madrone Chair", 
-        price: 500.0,
-        type: "chairs",
-        productImage: "madrone.jpeg",
-    },
-    {
-        id: 4, 
-        productName: "Pomona Chair", 
-        price: 1000.0,
-        type: "chairs",
-        productImage: "pomona.jpeg",
-    },
-    {
-        id: 1, 
-        productName: "Aimee Chair", 
-        price: 2000.0,
-        type: "chairs",
-        productImage: "aimee.jpeg",
-    },
-    {
-        id: 2, 
-        productName: "Declan Chair", 
-        price: 350.0,
-        type: "chairs",
-        productImage: "declan.jpeg",
-    },
-    {
-        id: 3, 
-        productName: "Madrone Chair", 
-        price: 500.0,
-        type: "chairs",
-        productImage: "madrone.jpeg",
-    },
-    {
-        id: 4, 
-        productName: "Pomona Chair", 
-        price: 1000.0,
-        type: "chairs",
-        productImage: "pomona.jpeg",
+        productNoBg: "pomona-bg.png"
+
     },
     {
         id: 5, 
@@ -92,6 +42,7 @@ export const PRODUCTS = [
         price: 2.0,
         type: "tables",
         productImage: "clayhill.jpeg",
+        productNoBg: "clayhill-bg.png"
     },
     {
         id: 6, 
@@ -99,6 +50,7 @@ export const PRODUCTS = [
         price: 20000.0,
         type: "tables",
         productImage: "cordelia.jpeg",
+        productNoBg: "cordelia-bg.png"
     },
     {
         id: 7, 
@@ -106,6 +58,7 @@ export const PRODUCTS = [
         price: 55.0,
         type: "tables",
         productImage: "finnley.jpeg",
+        productNoBg: "finnley-bg.png"
     },
     {
         id: 8, 
@@ -113,5 +66,6 @@ export const PRODUCTS = [
         price: 8.0,
         type: "tables",
         productImage: "sullivan.jpeg",
+        productNoBg: "sullivan-bg.png"
     },
 ]

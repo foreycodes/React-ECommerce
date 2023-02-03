@@ -1,8 +1,8 @@
 import { React } from 'react'
 import { PRODUCTS } from '../../products'
 import { Product } from "./product"
-import Hero from "../../components/hero"
-import Filler from "../../components/filler"
+import Hero from "../../components/homepage/hero"
+import Filler from "../../components/homepage/filler"
 import './shop.css'
 import "../../App.css"
 

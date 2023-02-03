@@ -1,0 +1,9 @@
+.cartItem {
+    display: flex; 
+    flex-direction: row; 
+}
+.description {
+    display: flex; 
+    flex-direction: row; 
+    
+}

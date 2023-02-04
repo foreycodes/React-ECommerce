@@ -8,11 +8,11 @@ export const CartItem = (props) => {
     useContext(ShopContext);
 
   return (
-    <div className="cartItem">
-      <img className="product-img" src={require(`../../assets/${type}/${productNoBg}`)} alt={productName}/>
+    <div className="cart-item">
+      <img className="cart-product-img" src={require(`../../assets/${type}/${productNoBg}`)} alt={productName}/>
       <div className="description">
         <p> {productName} </p>
-        <div className="countHandler">
+        <div className="count-handler">
           <button onClick={() => removeFromCart(id)}> - </button>
           <input
             value={cartItems[id]}

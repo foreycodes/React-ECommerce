@@ -13,3 +13,45 @@ p, h1 {
     width: 100%;  
     height: 2px; 
 }
+.count-handler button {
+    padding: 0px; 
+    font-size: 20px; 
+    background: transparent; 
+    border: none; 
+    color: var(--color-neutral-200); 
+}
+
+.count-handler input {
+    padding: 0px; 
+    font-size: 20px; 
+    font-family: var(--font-body); 
+    background: transparent; 
+    border: none; 
+    color: var(--color-neutral-200); 
+    width: 24px; 
+    text-align: center; 
+}
+.description {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    white-space: nowrap; 
+    gap: 2vw; 
+}
+.count-handler {
+    display: flex; 
+    gap: 6px; 
+    width: 100%; 
+    padding: 8px 12px;
+    border: 0.5px solid var(--color-neutral-200); 
+    /* height: fit-content;  */
+}
+.cart-item {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+}
+.cart-product-img {
+    width: 167px; 
+    height: 167px; 
+}

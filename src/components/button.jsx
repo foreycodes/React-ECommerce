@@ -1,10 +1,10 @@
 import React from 'react'
 import "./button.css"
 
-const Button = ({variant}) => {
+const Button = ({variant, text = "Shop collection"}) => {
   return (
     <button className={`button ${ variant }`}>
-        Shop collection
+        { text }
     </button>
   )
 }

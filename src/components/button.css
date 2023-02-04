@@ -1,11 +1,23 @@
-.button {
-    border: 1px solid var(--color-neutral-700); 
+.button, .primary, .light, .dark {
     font-family: var(--font-body); 
     font-size: var(--font-size-md); 
+}
+
+.light, .dark {
+    border: 1px solid var(--color-neutral-700); 
     border-radius: 999px; 
     padding: 14px 28px; 
     width: fit-content; 
 }
+
+.primary {
+    background-color: var(--color-neutral-100); 
+    border: none; 
+    width: 100%; 
+    padding: 10px; 
+
+}
+
 .light {
     color: var(--color-neutral-700); 
     background-color: var(--color-neutral-100); 

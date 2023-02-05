@@ -102,4 +102,30 @@ h2 {
 }
 
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 660px) {
+  :root {
+    --font-display-xl: 100px; 
+    
+    --font-display-lg: 56px; 
+    --font-display-lg-weight: 500; 
 
+    --font-display-md: 32px; 
+
+    --font-display-sm: 24px; 
+    --font-display-sm-weight: 900; 
+
+    --font-body: 'Gothic A1', sans-serif; 
+
+    --font-body-md: 18px; 
+    --font-body-sm: 14px; 
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

@@ -1,7 +1,7 @@
 .filler-img {
     display: block; 
     margin: auto; 
-    height: 900px; 
+    height: 100vh; 
     border: 16px solid var(--color-neutral-800); 
     border-radius: 999px; 
 }
@@ -54,7 +54,6 @@
 }
 
 .triple-filler-wrapper {
-    /* padding: 0px 80px;  */
     display: flex; 
     margin: auto; 
     justify-content: center; 
@@ -67,14 +66,14 @@
     padding-left: 0vw;  
 }
 .triple-filler-img {
-    height: 100%; 
-    width: 560px; 
+    height: 80vh; 
+    width: 100%; 
 }
 
 .filler-line {
     background-color: var(--color-neutral-200); 
     width: 2px; 
-    height: 560px; 
+    height: 90vh; 
 }
 
 .filler-right-content {
@@ -82,7 +81,7 @@
     flex-direction: column; 
     padding: 4vw; 
     width: 35%; 
-    gap: 60px;  
+    gap: 4vh;  
     color: var(--color-neutral-200); 
 }
 

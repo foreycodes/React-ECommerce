@@ -1,25 +1,37 @@
 import React from 'react'
+import { motion, useScroll, useTransform } from "framer-motion"
 import Button from "../button"
 import "../../App.css";
 import "./hero.css";
 
-
-const hero = () => {
+const Hero = () => {
+  const { scrollY } = useScroll()
+  const opacity = useTransform(
+    scrollY,
+    [-100, 0, 100, 200],
+    [0, 1, 1, 0]
+  )
   return (
     <div>
-      <div className="hero-wrapper">
-          <div className="hero-left-wrapper">
-            <h1>Luxury furniture for <br></br>— the modern home</h1>
-          </div>
-         <div className="hero-right-wrapper">
+      <div 
+      className="hero-wrapper">
+          <motion.div
+          style={{opacity}}
+          className="hero-left-wrapper">
+            <h1>Luxury furniture for <h1>
+              </h1>— the modern home</h1>
+          </motion.div>
+         <motion.div 
+          style={{opacity}}
+          className="hero-right-wrapper">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.</p>
             <Button variant='light'/>
-         </div>
+         </motion.div>
       </div>
     </div>
   )
 }
 
-export default hero
+export default Hero
 
 

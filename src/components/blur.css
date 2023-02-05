@@ -1,0 +1,11 @@
+.blur {
+    position: absolute;
+    z-index: 1; 
+    width: 720px;
+    height: 720px;
+    left: 170px;
+    top: 610px;
+    background: rgba(230, 110, 34, 0.5);
+    filter: blur(200px);
+    border-radius: 999999px;
+}

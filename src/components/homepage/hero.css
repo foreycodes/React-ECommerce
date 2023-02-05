@@ -6,6 +6,7 @@
     font-weight: var(--font-display-lg-weight);  
     color: var(--color-neutral-800); 
     margin: 0; 
+    white-space: nowrap; 
 }
 
 .hero-wrapper p {

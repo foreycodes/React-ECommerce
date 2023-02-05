@@ -2,17 +2,14 @@ import { React, useRef, useEffect } from 'react'
 import { useInView } from "react-intersection-observer"
 import Button from "../button"
 import TextScroll from "./textScroll" 
+import Blur from "../blur"
 import "../../App.css";
 import "./filler.css"; 
-
-const variant = {
-  visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
-  hidden: { opacity: 0, scale: 0 }
-};
 
 const Filler = () => {
   return (
     <div className="filler-container">
+      <Blur />
       <TextScroll />
        <div className="triple-filler-wrapper">
         <div className="triple-filler-img-wrapper">

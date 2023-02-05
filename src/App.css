@@ -65,7 +65,7 @@
     --font-display-xl: 160px; 
     
     --font-display-lg: 96px; 
-    --font-display-lg-weight: 500; 
+    --font-display-lg-weight: 400; 
 
     --font-display-md: 64px; 
 
@@ -86,7 +86,7 @@
 
 p {
   font-family: var(--font-body); 
-  font-size: var(--font-body-md); 
+  font-size: var(--font-body-sm); 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -94,6 +94,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 { 
+  line-height: 96px; 
+  letter-spacing: 0.01em;
   font-size: var(--font-display-lg); 
 }
 

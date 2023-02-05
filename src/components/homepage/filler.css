@@ -2,9 +2,8 @@
     display: block; 
     margin: auto; 
     height: 900px; 
+    border: 16px solid var(--color-neutral-800); 
     border-radius: 999px; 
-    border-style: solid; 
-    border-width: 16px; 
 }
 .debug {
     border: 1px solid red; 
@@ -70,9 +69,6 @@
 .triple-filler-img {
     height: 100%; 
     width: 560px; 
-    border-radius: 999px; 
-    border-style: solid; 
-    border-width: 16px;  
 }
 
 .filler-line {

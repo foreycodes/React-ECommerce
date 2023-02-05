@@ -2,11 +2,6 @@
     background-color: var(--color-neutral-700);
 }
 
-
-p, h1, h2 {
-    color: var(--color-neutral-200); 
-}
-
 .cart-title, .order-number, .checkout {
     font-family: var(--font-body); 
     font-size: var(--font-body-sm); 
@@ -14,6 +9,7 @@ p, h1, h2 {
 
 .title {
     font-size: var(--font-body-md); 
+    color: var(--color-neutral-200); 
 }
 
 .line {
@@ -25,6 +21,7 @@ p, h1, h2 {
 .cart-container, .cart-items, .checkout-container, .order-summary-container, .checkout, .checkout-amounts-container {
     display: flex; 
     flex-direction: column; 
+    color: var(--color-neutral-200); 
     justify-content: center; 
 }
 

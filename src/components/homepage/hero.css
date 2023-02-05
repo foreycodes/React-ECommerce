@@ -1,6 +1,15 @@
+.hero-wrapper {
+    background-color: var(--color-neutral-100); 
+}
+
 .hero-wrapper h1 {
     font-weight: var(--font-display-lg-weight);  
+    color: var(--color-neutral-800); 
     margin: 0; 
+}
+
+.hero-wrapper p {
+    color: var(--color-neutral-800); 
 }
 
 .hero-wrapper {

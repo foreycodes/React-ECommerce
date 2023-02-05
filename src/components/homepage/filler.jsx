@@ -31,7 +31,7 @@ const Filler = () => {
        </div>
        <div className="triple-filler-wrapper">
         <div className="triple-filler-img-wrapper">
-        <img className="triple-filler-img" src={require("../../assets/tripleFillerImg.jpg")} alt="Couch and furnishings"></img>
+        <img className="filler-img triple-filler-img" src={require("../../assets/tripleFillerImg.jpg")} alt="Couch and furnishings"></img>
         </div>
         <div className="filler-line"></div>
         <div className="filler-right-content">

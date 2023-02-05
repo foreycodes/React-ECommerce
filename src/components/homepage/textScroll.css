@@ -24,8 +24,6 @@
     position: absolute; 
     z-index: 1; 
     top: 35%; 
-    /* left: 100vw;   */
-    /* animation: slide 15s linear infinite; */
 }
 
 .text-scroll-wrap img {
@@ -39,7 +37,3 @@
     border: 16px solid var(--color-neutral-800); 
     border-radius: 999px; 
 }
-.debug {
-    border: 1px solid red; 
-}
-

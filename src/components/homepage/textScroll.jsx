@@ -1,16 +1,19 @@
 import React from 'react'
-import { motion, useAnimation } from "framer-motion"
+import { motion, useScroll, useTransform } from "framer-motion"
 import "./textScroll.css"
 
-const textScroll = () => {
+const TextScroll = () => {
+
+    const { scrollYProgress } = useScroll();
+    const x = useTransform(scrollYProgress, [0, 1], [0, -2200], {clamp: false});
+
   return (
+    <>
     <div>
         <div className="filler-wrapper">
         <img className="filler-img" src={require("../../assets/fillerImg.jpg")} alt="A table"></img>
-        <div className="debug" style={{ overflow: "scroll" }}>
-          <motion.div
-          animate={{ x: 100 }}
-          initial={{ x: 0 }}
+          <motion.div 
+          style = {{ x }}
           className="text-scroll-wrap">
               Hand Crafted 
               <img alt="star" src={require("../../assets/Star.png")}></img>
@@ -20,9 +23,9 @@ const textScroll = () => {
               <img alt="star" src={require("../../assets/Star.png")}></img>
           </motion.div>
         </div>
-       </div>
     </div>
+    </>
   )
 }
 
-export default textScroll
+export default TextScroll

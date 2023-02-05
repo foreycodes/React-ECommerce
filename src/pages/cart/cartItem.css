@@ -1,41 +1,46 @@
-.count-handler button {
-    padding: 0px; 
-    font-size: 20px; 
-    background: transparent; 
-    border: none; 
+* {
     color: var(--color-neutral-200); 
 }
 
-.count-handler input {
+.description, .count-handler, .cart-item {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+}
+
+.count-handler button, input {
     padding: 0px; 
-    font-size: 20px; 
-    font-family: var(--font-body); 
+    font-size: 16px; 
     background: transparent; 
     border: none; 
-    color: var(--color-neutral-200); 
-    width: 24px; 
     text-align: center; 
 }
+
+.count-handler input { 
+    width: 24px; 
+}
+
+.count-handler {
+    gap: 6px; 
+    padding: 6px 10px;
+    border: 0.5px solid; 
+}
+
 .description {
-    display: flex; 
-    flex-direction: row; 
-    align-items: center; 
-    white-space: nowrap; 
     gap: 2vw; 
 }
-.count-handler {
-    display: flex; 
-    gap: 6px; 
-    width: 100%; 
-    padding: 8px 12px;
-    border: 0.5px solid var(--color-neutral-200); 
-}
-.cart-item {
-    display: flex; 
-    flex-direction: row; 
-    align-items: center; 
-}
+
 .cart-product-img {
     width: 167px; 
     height: 167px; 
 }
+
+.product-name {
+    width: 120px; 
+    text-align: center; 
+}
+.product-price {
+    width: 80px; 
+    text-align: center; 
+}
+

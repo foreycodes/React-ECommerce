@@ -53,7 +53,6 @@ export const Cart = () => {
                 <p>${totalAmount}</p>
               </div>
             </div>
-          
             {/* <button className="continue-button" onClick={() => navigate("/")}>Continue Shopping</button> */}
             <Button variant="primary" text="CONTINUE"/>
          </div>

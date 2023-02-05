@@ -8,12 +8,10 @@ p, h1, h2 {
 }
 
 .cart-title, .order-number, .checkout {
-    font-family: var(--font-body); 
     font-size: var(--font-body-sm); 
 }
 
 .title {
-    font-family: var(--font-body); 
     font-size: var(--font-body-md); 
 }
 
@@ -23,7 +21,7 @@ p, h1, h2 {
     height: 2px; 
 }
 
-.cart-container, .checkout-container, .order-summary-container, .checkout, .checkout-amounts-container {
+.cart-container, .cart-items, .checkout-container, .order-summary-container, .checkout, .checkout-amounts-container {
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
@@ -31,6 +29,11 @@ p, h1, h2 {
 
 .cart-container {
     flex-direction: row; 
+}
+
+.cart-items {
+    padding: 40px; 
+    gap: 24px; 
 }
 
 .checkout-container {

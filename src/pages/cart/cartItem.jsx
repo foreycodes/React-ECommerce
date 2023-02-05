@@ -11,7 +11,7 @@ export const CartItem = (props) => {
     <div className="cart-item">
       <img className="cart-product-img" src={require(`../../assets/${type}/${productNoBg}`)} alt={productName}/>
       <div className="description">
-        <p> {productName} </p>
+      <div className="product-name">{productName}</div>
         <div className="count-handler">
           <button onClick={() => removeFromCart(id)}> - </button>
           <input
@@ -20,7 +20,7 @@ export const CartItem = (props) => {
           />
           <button onClick={() => addToCart(id)}> + </button>
         </div>
-        <p> $ {price}</p>
+        <div className="product-price">${price}</div>
       </div>
     </div>
   );

@@ -18,10 +18,12 @@ export const Cart = () => {
   return (
     <div className="cart">
         <HeroImage />
-        <h1 className="cart-title">YOUR CART</h1>
-        <div className="line"></div>
         <div className="cart-container">
           <div className="cart-items">
+          <div className="cart-title-container">
+              <h1 className="cart-title">YOUR CART</h1>
+              <div className="line"></div>
+          </div>
             {PRODUCTS.map((product) => {
               if (cartItems[product.id] !== 0) {
                 return <CartItem data={product} />; 

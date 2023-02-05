@@ -8,6 +8,7 @@ p, h1, h2 {
 }
 
 .cart-title, .order-number, .checkout {
+    font-family: var(--font-body); 
     font-size: var(--font-body-sm); 
 }
 
@@ -31,19 +32,27 @@ p, h1, h2 {
     flex-direction: row; 
 }
 
+
+.cart-title-container {
+    width: 100%; 
+}
 .cart-items {
     padding: 40px; 
     gap: 24px; 
 }
 
 .checkout-container {
-    width: 264px; 
-    height: 400px; 
-    padding: 36px; 
+    width: 268px; 
+    height: 100%; 
+    padding: 24px 36px; 
     gap: 24px; 
+    margin: 40px; 
     background-color: var(--color-neutral-600); 
 }
 
+.checkout-container p {
+    font-size: var(--font-body-sm); 
+}
 .order-summary-container {
     gap: 8px;  
 }

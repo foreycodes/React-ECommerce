@@ -2,6 +2,7 @@
     overflow: hidden; 
     position: relative; 
     width: 100%; 
+    padding: 4vh 4vw; 
     background: linear-gradient(
         to bottom, 
         var(--color-neutral-100) 0%, 
@@ -17,13 +18,13 @@
     white-space: nowrap; 
     align-items: center; 
     gap: 20px; 
+    position: absolute; 
+    z-index: 1; 
+    top: 35%; 
     font-family: var(--font-display); 
     font-size: var(--font-display-xl); 
     color: var(--color-neutral-200); 
     font-weight: 500; 
-    position: absolute; 
-    z-index: 1; 
-    top: 35%; 
 }
 
 .text-scroll-wrap img {
@@ -33,7 +34,7 @@
 .filler-img {
     display: block; 
     margin: auto; 
-    height: 100vh; 
+    height: 960px; 
     border: 16px solid var(--color-neutral-800); 
     border-radius: 999px; 
 }

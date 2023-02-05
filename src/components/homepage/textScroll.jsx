@@ -4,28 +4,28 @@ import "./textScroll.css"
 
 const TextScroll = () => {
 
-    const { scrollYProgress } = useScroll();
-    const x = useTransform(scrollYProgress, [0, 1], [0, -2200], {clamp: false});
+const { scrollYProgress } = useScroll();
+const x = useTransform(scrollYProgress, [0, 1], [1000, -5000]);
 
-  return (
+return (
     <>
     <div>
         <div className="filler-wrapper">
-        <img className="filler-img" src={require("../../assets/fillerImg.jpg")} alt="A table"></img>
-          <motion.div 
-          style = {{ x }}
-          className="text-scroll-wrap">
-              Hand Crafted 
-              <img alt="star" src={require("../../assets/Star.png")}></img>
-              Sustainable 
-              <img alt="star" src={require("../../assets/Star.png")}></img>
-              Locally Sourced
-              <img alt="star" src={require("../../assets/Star.png")}></img>
-          </motion.div>
+            <img className="filler-img" src={require("../../assets/fillerImg.jpg")} alt="A table"></img>
+            <motion.div 
+            style = {{ x }}
+            className="text-scroll-wrap">
+                Hand Crafted 
+                <img alt="star" src={require("../../assets/Star.png")}></img>
+                Sustainable 
+                <img alt="star" src={require("../../assets/Star.png")}></img>
+                Locally Sourced
+                <img alt="star" src={require("../../assets/Star.png")}></img>
+            </motion.div>
         </div>
     </div>
     </>
-  )
+    )
 }
 
 export default TextScroll

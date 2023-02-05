@@ -8,8 +8,9 @@ import Button from '../../components/button';
 
 export const Cart = () => {
   // testing cart
-  const cartItems = PRODUCTS;
+  // const cartItems = PRODUCTS;
   // 
+  const { cartItems } = useContext(ShopContext);
   const { getTotalCartAmount } = useContext(ShopContext); 
   const totalCartAmount = getTotalCartAmount();
   const taxAmount = totalCartAmount * 0.08;

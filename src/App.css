@@ -108,7 +108,7 @@ h2 {
 }
 
 /* small screens */
-@media only screen and ((min-width: 481px) and (max-width: 768px)) {
+@media only screen and ((min-width: 481px) and (max-width: 800px)) {
   :root {
     --font-display-xl: 100px; 
     
@@ -129,7 +129,7 @@ h2 {
 }
 
 /* small desktop */
-@media only screen and ((min-width: 769px) and (max-width: 1024px)) {
+@media only screen and ((min-width: 801px) and (max-width: 1024px)) {
   :root {
     --font-display-xl: 100px; 
     

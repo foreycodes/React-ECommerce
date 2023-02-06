@@ -1,4 +1,4 @@
-.description, .count-handler, .cart-item {
+.cart-description, .count-handler, .cart-item {
     color: var(--color-neutral-200); 
     display: flex; 
     flex-direction: row; 
@@ -28,7 +28,8 @@
 }
 
 .cart-description {
-    gap: 2vw; 
+    gap: 14px; 
+    width: 100%; 
 }
 
 .cart-product-img {
@@ -44,4 +45,3 @@
     width: 80px; 
     text-align: center; 
 }
-

@@ -11,14 +11,15 @@ export const Product = (props) => {
     
   return (
     <div className="product">
+      <div className="product-img-container">
       <img className="product-img" src={require(`../../assets/${type}/${productImage}`)} alt={productName}/>
+      <button className="product-button" onClick={() => addToCart(id)}>Add to Cart 
+      {cartItemAmount > 0 && <> ({cartItemAmount})</>}</button>
+      </div>
       <div className="product-description">
         <p className="product-name"> {productName} </p>
         <p className="product-price"> ${price} </p>
       </div> 
-      <button className="addToCartBttn" onClick={() => addToCart(id)}>Add to Cart 
-      {cartItemAmount > 0 && <> ({cartItemAmount})</>}
-      </button>
     </div>
   )
 }

@@ -64,7 +64,7 @@
 
     --font-display-xl: 160px; 
     
-    --font-display-lg: 96px; 
+    --font-display-lg: 88px; 
     --font-display-lg-weight: 400; 
 
     --font-display-md: 64px; 
@@ -117,8 +117,6 @@ h2 {
     --font-display-sm: 18px; 
     --font-display-sm-weight: 900; 
 
-    --font-body: 'Gothic A1', sans-serif; 
-
     --font-body-md: 16px; 
     --font-body-sm: 14px; 
   }
@@ -129,7 +127,7 @@ h2 {
   :root {
     --font-display-xl: 100px; 
     
-    --font-display-lg: 48px; 
+    --font-display-lg: 64px; 
     --font-display-lg-height: 80px; 
     --font-display-lg-weight: 500; 
 
@@ -137,8 +135,6 @@ h2 {
 
     --font-display-sm: 24px; 
     --font-display-sm-weight: 900; 
-
-    --font-body: 'Gothic A1', sans-serif; 
 
     --font-body-md: 18px; 
     --font-body-sm: 14px; 
@@ -150,19 +146,17 @@ h2 {
   :root {
     --font-display-xl: 100px; 
     
-    --font-display-lg: 48px; 
-    --font-display-lg-height: 70px; 
+    --font-display-lg: 64px; 
+    --font-display-lg-height: 80px; 
     --font-display-lg-weight: 500; 
 
-    --font-display-md: 32px; 
+    --font-display-md: 48px; 
 
-    --font-display-sm: 24px; 
-    --font-display-sm-weight: 900; 
+    --font-display-sm: 28px; 
 
-    --font-body: 'Gothic A1', sans-serif; 
 
-    --font-body-md: 18px; 
-    --font-body-sm: 14px; 
+    --font-body-md: 24px; 
+    --font-body-sm: 18px; 
   }
 }
 

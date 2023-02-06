@@ -18,8 +18,9 @@ const Hero = () => {
           <motion.div
           style={{opacity}}
           className="hero-left-wrapper">
-            <h1>Luxury furniture for </h1>
-              <h1>— the modern home</h1>
+            <h1><span>Luxury furniture for</span>
+            <span>— the modern home</span>
+            </h1> 
           </motion.div>
          <motion.div 
           style={{opacity}}

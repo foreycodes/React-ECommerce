@@ -9,7 +9,7 @@ import "./filler.css";
 const Filler = () => {
   return (
     <div className="filler-container">
-      <Blur />
+      {/* <Blur /> */}
       <TextScroll />
        <div className="triple-filler-wrapper">
         <div className="triple-filler-img-wrapper">

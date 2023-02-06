@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import { useNavigate } from "react-router-dom"; 
 import { PRODUCTS } from '../../products';
 import  { CartItem }  from './cartItem';
 import { ShopContext } from '../../context/shop-context';
@@ -7,14 +8,14 @@ import HeroImage from '../../components/cart/heroimage';
 import Button from '../../components/button';
 
 export const Cart = () => {
-  // testing cart
-  // const cartItems = PRODUCTS;
-  // 
+
+  const navigate = useNavigate(); 
   const { cartItems } = useContext(ShopContext);
   const { getTotalCartAmount } = useContext(ShopContext); 
   const totalCartAmount = getTotalCartAmount();
   const taxAmount = totalCartAmount * 0.08;
   const totalAmount = totalCartAmount + taxAmount;
+  const navigateHome = () => { navigate('/')}; 
 
   return (
     <div className="cart">
@@ -64,7 +65,10 @@ export const Cart = () => {
           <div className="empty">
             <h3>Your cart is empty.</h3>
             <div className="line"></div>
-            <Button variant="primary light" text="Continue shopping" />
+            <a onClick={navigateHome}>
+            <Button
+            variant="primary light" text="Continue shopping" />
+            </a>
           </div>
         )}
     </div>

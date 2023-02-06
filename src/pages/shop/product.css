@@ -1,5 +1,4 @@
 .product {
-  margin: 0px; 
     display: flex; 
     flex-direction: column; 
     flex-shrink: 0; 
@@ -11,12 +10,10 @@
 }
 
 .product-img-container {
-    margin: none; 
     position: relative; 
 }
 
 .product-img-container:before {
-  margin: none; 
   content:"";
   position:absolute;
   width:100%;
@@ -29,7 +26,6 @@
 }
 
 .product-img-container img {
-  display:block;
   width: 368px; 
   height: 328px; 
 }
@@ -54,9 +50,8 @@
 
 @media only screen and ((min-width: 481px) and (max-width: 800px)) {
   .product-img-container img {
-    display:block;
-    width: 288px; 
-    height: 248px; 
+    width: 258px; 
+    height: 228px; 
   }
 }
 

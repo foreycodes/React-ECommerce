@@ -19,7 +19,7 @@ const Shop = () => {
             <div key={i} className={`product-section ${category}`}>
               <div className="category-title-container">
                 <h2>{category.toUpperCase()}</h2>
-                <img alt="arrow" src={Arrow}></img>
+                <img className="arrow" alt="arrow" src={Arrow}></img>
               </div>
               <div className="products-container">
                 {PRODUCTS.filter(prod => prod.type === category).map(prod => <Product data={prod} />)}

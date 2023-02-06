@@ -27,9 +27,23 @@
     gap: 24px;
 }
 
+@media only screen and (max-width: 480px) {
+}
 
-@media only screen and (max-width: 700px) {
+@media only screen and ((min-width: 481px) and (max-width: 768px)) {
     .hero-wrapper {
         flex-direction: column;
+        margin: auto;  
+        align-items: center; 
+        padding: 120px 0px 60px 0; 
     }
+    .hero-left-wrapper {
+        width: fit-content; 
+    }
+    .hero-right-wrapper {
+        width: 600px; 
+    }
+}
+
+@media only screen and ((min-width: 769px) and (max-width: 1024px)) {
 }

@@ -1,7 +1,7 @@
 .product {
+  margin: 0px; 
     display: flex; 
     flex-direction: column; 
-    width: 368px; 
     flex-shrink: 0; 
     gap: 16px; 
 }
@@ -11,16 +11,16 @@
 }
 
 .product-img-container {
+    margin: none; 
     position: relative; 
-    width:100%;
 }
 
 .product-img-container:before {
+  margin: none; 
   content:"";
   position:absolute;
   width:100%;
   height:100%;
-  top:0;left:0;right:0;
   background-color:rgba(0,0,0,0);
 }
 
@@ -47,4 +47,18 @@
 
 .product-img-container:hover button {   
   opacity: 1;
+}
+
+@media only screen and (max-width: 480px) {
+}
+
+@media only screen and ((min-width: 481px) and (max-width: 768px)) {
+  .product-img-container img {
+    display:block;
+    width: 288px; 
+    height: 248px; 
+  }
+}
+
+@media only screen and ((min-width: 769px) and (max-width: 1024px)) {
 }

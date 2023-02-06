@@ -3,6 +3,7 @@
     margin: auto; 
     justify-content: center; 
     align-items: center; 
+    padding: 80px 0px; 
     background-color: var(--color-neutral-700);
 }
 
@@ -18,7 +19,7 @@
 .filler-line {
     background-color: var(--color-neutral-200); 
     width: 2px; 
-    height: 90vh; 
+    height: 80vh; 
 }
 
 .filler-right-content {
@@ -39,3 +40,12 @@
     font-size: var(--font-body-sm); 
 }
 
+@media only screen and (max-width: 480px) {
+}
+
+@media only screen and ((min-width: 481px) and (max-width: 768px)) {
+
+}
+
+@media only screen and ((min-width: 769px) and (max-width: 1024px)) {
+}

@@ -15,14 +15,24 @@
 }
 
 .products-container {
+    gap: 24px; 
     padding: 0px 80px 0px 0px; 
     width: 100%; 
     display: flex; 
-    gap: 24px; 
     overflow-x: scroll; 
     white-space: nowrap; 
 }
 
 .products-container::-webkit-scrollbar {
     display: none; 
+}
+
+@media only screen and (max-width: 480px) {
+}
+
+@media only screen and ((min-width: 481px) and (max-width: 768px)) {
+}
+
+
+@media only screen and ((min-width: 769px) and (max-width: 1024px)) {
 }

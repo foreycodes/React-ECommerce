@@ -27,7 +27,7 @@
     border: 0.5px solid; 
 }
 
-.description {
+.cart-description {
     gap: 2vw; 
 }
 
@@ -36,11 +36,11 @@
     height: 167px; 
 }
 
-.product-name {
+.cart-product-name {
     width: 120px; 
     text-align: center; 
 }
-.product-price {
+.cart-product-price {
     width: 80px; 
     text-align: center; 
 }

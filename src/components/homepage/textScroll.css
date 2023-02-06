@@ -40,11 +40,18 @@
 }
 
 @media only screen and (max-width: 480px) {
+    .text-scroll-img {
+        height: 440px;
+    }
+    .text-scroll-wrap img {
+        height: 52px; 
+        width: 52px; 
+    }
 }
 
 @media only screen and ((min-width: 481px) and (max-width: 800px)) {
     .text-scroll-img {
-        height: 800px;
+        height: 600px;
     }
 }
 

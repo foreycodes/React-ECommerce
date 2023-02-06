@@ -1,6 +1,6 @@
 .navbar {
   padding: 20px 80px;  
-  width: 100vw; 
+  width: 100%; 
   background-color: var(--color-neutral-100);
   display: flex;
   justify-content: space-between;  

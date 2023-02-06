@@ -3,7 +3,7 @@ import Button from "../button"
 import TextScroll from "./textScroll" 
 import Star from "../../assets/Star.svg"
 import FillerImg from "../../assets/tripleFillerImg.jpg"
-import { motion} from "framer-motion"
+import { motion } from "framer-motion"
 import Blur from "../blur"
 import "../../App.css";
 import "./filler.css"; 

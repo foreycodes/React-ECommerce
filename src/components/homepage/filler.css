@@ -36,6 +36,30 @@
     flex-direction: column; 
 }
 @media only screen and (max-width: 480px) {
+    .filler-star {
+        width: 52px; 
+    }
+    .filler-container {
+        flex-direction: column;
+        padding: 0px;  
+    }
+    .filler-wrapper {
+        padding: 28px; 
+    }
+    .filler {
+        align-items: center; 
+        height: 300px; 
+    }
+    .right {
+        gap: 18px; 
+        text-align: center; 
+    }
+    .left {
+        display: none; 
+    }
+    .mid {
+        display: none; 
+    }
 }
 
 @media only screen and ((min-width: 481px) and (max-width: 800px)) {
@@ -55,6 +79,9 @@
     }
     .mid {
         display: none; 
+    }
+    .right {
+        text-align: center; 
     }
 }
 

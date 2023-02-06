@@ -28,12 +28,23 @@
 }
 
 @media only screen and (max-width: 480px) {
+    .hero-wrapper {
+        flex-direction: column;
+        margin: auto;  
+        align-items: center;
+        padding: 120px 0px 48px 0px;  
+    }
+    .hero-left-wrapper {
+        width: fit-content; 
+    }
+    .hero-right-wrapper {
+        width: 280px;  
+    }
 }
 
 @media only screen and ((min-width: 481px) and (max-width: 800px)) {
     .hero-wrapper {
         flex-direction: column;
-        margin: auto;  
         align-items: center; 
         padding: 120px 0px 60px 0; 
     }
@@ -41,7 +52,10 @@
         width: fit-content; 
     }
     .hero-right-wrapper {
-        width: 600px; 
+        text-align: center;
+        align-items: center;
+        width: fit-content;  
+        padding: 0px 80px; 
     }
 }
 

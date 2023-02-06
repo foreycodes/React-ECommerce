@@ -46,6 +46,10 @@
 }
 
 @media only screen and (max-width: 480px) {
+  .product-img-container img {
+    width: 148px; 
+    height: 148px; 
+  }
 }
 
 @media only screen and ((min-width: 481px) and (max-width: 800px)) {

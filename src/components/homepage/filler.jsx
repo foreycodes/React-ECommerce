@@ -1,29 +1,38 @@
-import { React, useRef, useEffect } from 'react'
-import { useInView } from "react-intersection-observer"
+import { React } from 'react'
 import Button from "../button"
 import TextScroll from "./textScroll" 
+import Star from "../../assets/Star.svg"
+import FillerImg from "../../assets/tripleFillerImg.jpg"
+import { motion} from "framer-motion"
 import Blur from "../blur"
 import "../../App.css";
 import "./filler.css"; 
 
 const Filler = () => {
   return (
-    <div className="filler-container">
-      {/* <Blur /> */}
+    <div className="filler-content">
       <TextScroll />
-       <div className="triple-filler-wrapper">
-        <div className="triple-filler-img-wrapper">
-        <img className="filler-img triple-filler-img" src={require("../../assets/tripleFillerImg.jpg")} alt="Couch and furnishings"></img>
+      <div className="filler-wrapper"> 
+      <motion.div 
+      whileHover={{
+        rotate:30,
+      }}
+      >
+          <img className="filler-star" src={Star} alt="Star"></img>     
+          </motion.div>  
+          <div className="filler-container">
+            <div className="filler left">
+            <img className="filler-img" src={FillerImg} alt="Table and chairs"></img>
+            </div>
+            <div className="filler mid"></div>
+            <div className="filler right">
+              <h2>Comfort</h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero aspernatur et vel voluptatem sint laborum ab. Harum, cum! Excepturi quas ad natus rem quam voluptatem nam laborum consequatur esse sit.</p>
+              <Button variant="dark" />
+            </div>
         </div>
-        <div className="filler-line"></div>
-        <div className="filler-right-content">
-          <h2>MODERNITY</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam similique esse officia dolores. Earum veritatis ad ipsum numquam maiores explicabo vitae atque repellat cupiditate! Voluptatum minus earum soluta at corporis?</p>
-          <Button variant='dark' />
-        </div>
-       </div>
+      </div>
     </div>
-
   )
 }
 

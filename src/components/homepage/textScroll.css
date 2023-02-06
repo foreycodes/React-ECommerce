@@ -1,4 +1,4 @@
-.filler-wrapper {
+.text-scroll-wrapper {
     overflow: hidden; 
     position: relative; 
     width: 100%; 
@@ -31,7 +31,7 @@
     height: 104px; 
     width: 104px; 
 }
-.filler-img {
+.text-scroll-img {
     display: block; 
     margin: auto; 
     height: 960px; 

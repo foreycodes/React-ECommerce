@@ -7,8 +7,8 @@ import "../../App.css";
 export const Product = (props) => {
     const { id, productName, price, type, productImage } = props.data;
     const { addToCart, cartItems } = useContext(ShopContext); 
-
     const cartItemAmount = cartItems[id]; 
+    
   return (
     <div className="product">
       <img className="product-img" src={require(`../../assets/${type}/${productImage}`)} alt={productName}/>

@@ -60,7 +60,21 @@
     justify-content: space-between;
 }
 
-
 .checkout-amounts-container {
     gap: 8px; 
+}
+
+.empty {
+    color: var(--color-neutral-200); 
+    display: flex; 
+    flex-direction: column; 
+    gap: 16px; 
+    height: 50vh; 
+    padding: 40px; 
+}
+
+.empty button {
+    background-color: var(--color-neutral-200); 
+    border-radius: 0px; 
+    width: fit-content; 
 }

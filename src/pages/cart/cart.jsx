@@ -19,6 +19,7 @@ export const Cart = () => {
   return (
     <div className="cart">
         <HeroImage />
+        {totalCartAmount > 0 ? (
         <div className="cart-container">
           <div className="cart-items">
           <div className="cart-title-container">
@@ -31,7 +32,6 @@ export const Cart = () => {
               }
             })}
           </div>
-        {totalCartAmount > 0 ? (
           <div className="checkout-container">
             <div className="order-summary-container">
               <h2 className="checkout title">ORDER SUMMARY</h2>
@@ -59,10 +59,14 @@ export const Cart = () => {
             {/* <button className="continue-button" onClick={() => navigate("/")}>Continue Shopping</button> */}
             <Button variant="primary" text="CONTINUE"/>
          </div>
-        ) : (
-          <h3>Your Cart is Empty</h3>
-        )}
       </div>
+        ) : (
+          <div className="empty">
+            <h3>Your cart is empty.</h3>
+            <div className="line"></div>
+            <Button variant="primary light" text="Continue shopping" />
+          </div>
+        )}
     </div>
   )
 }

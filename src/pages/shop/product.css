@@ -39,6 +39,8 @@
   -ms-transform: translate(-50%, -50%);
   opacity: 0;
   padding: 12px; 
+  border-radius: 0px; 
+  border: none; 
 } 
 
 .product-img-container:hover button {   

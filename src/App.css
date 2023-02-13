@@ -65,8 +65,8 @@
     --font-display-xl: 160px; 
     
     --font-display-lg: 88px; 
+    
     --font-display-lg-weight: 400; 
-
     --font-display-md: 64px; 
 
     --font-display-sm: 24px; 
@@ -76,6 +76,7 @@
 
     --font-body-md: 20px; 
     --font-body-sm: 16px; 
+    --font-body-line-height: 28px; 
 
     --color-neutral-800: #000000; 
     --color-neutral-700: #111111; 
@@ -87,6 +88,7 @@
 p {
   font-family: var(--font-body); 
   font-size: var(--font-body-sm); 
+  line-height: var(--font-body-line-height); 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -119,6 +121,8 @@ h2 {
 
     --font-body-md: 16px; 
     --font-body-sm: 14px; 
+    --font-body-line-height: 20px; 
+
   }
 }
 
@@ -138,6 +142,7 @@ h2 {
 
     --font-body-md: 18px; 
     --font-body-sm: 14px; 
+    --font-body-line-height: 24px; 
   }
 }
 

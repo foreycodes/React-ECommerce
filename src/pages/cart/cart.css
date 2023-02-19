@@ -26,6 +26,8 @@
 }
 
 .cart-container {
+    width: 100%; 
+    justify-content: center; 
     min-height: 80vh; 
     flex-direction: row; 
 }
@@ -41,7 +43,6 @@
 .checkout-container {
     width: 268px; 
     height: 100%; 
-    max-height: 310px; 
     padding: 24px 36px; 
     gap: 24px; 
     margin: 40px; 

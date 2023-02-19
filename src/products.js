@@ -13,7 +13,7 @@ export const PRODUCTS = [
     {
         id: 2, 
         productName: "Declan Chair", 
-        price: 350.0,
+        price: 2500.0,
         type: "chairs",
         productImage: "declan.jpeg",
         productNoBg: "declan-bg.png"
@@ -21,7 +21,7 @@ export const PRODUCTS = [
     {
         id: 3, 
         productName: "Madrone Chair", 
-        price: 500.0,
+        price: 3000.0,
         type: "chairs",
         productImage: "madrone.jpeg",
         productNoBg: "madrone-bg.png"
@@ -30,7 +30,7 @@ export const PRODUCTS = [
     {
         id: 4, 
         productName: "Pomona Chair", 
-        price: 1000.0,
+        price: 4000.0,
         type: "chairs",
         productImage: "pomona.jpeg",
         productNoBg: "pomona-bg.png"
@@ -39,7 +39,7 @@ export const PRODUCTS = [
     {
         id: 5, 
         productName: "Clayhill Table", 
-        price: 2.0,
+        price: 6000.0,
         type: "tables",
         productImage: "clayhill.jpeg",
         productNoBg: "clayhill-bg.png"
@@ -47,7 +47,7 @@ export const PRODUCTS = [
     {
         id: 6, 
         productName: "Cordelia Table", 
-        price: 20000.0,
+        price: 8000.0,
         type: "tables",
         productImage: "cordelia.jpeg",
         productNoBg: "cordelia-bg.png"
@@ -55,7 +55,7 @@ export const PRODUCTS = [
     {
         id: 7, 
         productName: "Finnley Table", 
-        price: 55.0,
+        price: 5000.0,
         type: "tables",
         productImage: "finnley.jpeg",
         productNoBg: "finnley-bg.png"
@@ -63,7 +63,7 @@ export const PRODUCTS = [
     {
         id: 8, 
         productName: "Sullivan Table", 
-        price: 8.0,
+        price: 5500.0,
         type: "tables",
         productImage: "sullivan.jpeg",
         productNoBg: "sullivan-bg.png"

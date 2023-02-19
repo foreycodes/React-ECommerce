@@ -16,7 +16,7 @@ const Shop = () => {
       {
         category.map((category, i) => 
         <div className="category-section">
-            <div key={i} className={`product-section ${category}`}>
+            <div key={i} id="product-section" className={`product-section ${category}`}>
               <div className="category-title-container">
                 <h2>{category.toUpperCase()}</h2>
                 <img className="arrow" alt="arrow" src={Arrow}></img>

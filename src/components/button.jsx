@@ -1,16 +1,20 @@
-import React from 'react'
-import { motion } from "framer-motion"
+import React from "react";
+import { motion } from "framer-motion";
 
-import "./button.css"
+import "./button.css";
 
-const Button = ({ variant, text = "Shop collection" }) => {
+const Button = ({
+  variant,
+  href = "#product-section",
+  text = "Shop collection",
+}) => {
   return (
-    <motion.button 
-    whileTap={{scale: 0.98}}
-    className={`button ${ variant }`}>
-        { text }
-    </motion.button>
-  )
-}
+    <a href={href}>
+      <motion.button whileTap={{ scale: 0.98 }} className={`button ${variant}`}>
+        {text}
+      </motion.button>
+    </a>
+  );
+};
 
-export default Button
+export default Button;

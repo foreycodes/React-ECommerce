@@ -21,6 +21,7 @@
     3. Allow percentage-based heights in the application
   */
   html, body {
+    scroll-behavior: smooth; 
     height: 100%;
     font-family: var(--font-body); 
   }
@@ -131,8 +132,8 @@ h2 {
   :root {
     --font-display-xl: 100px; 
     
-    --font-display-lg: 64px; 
-    --font-display-lg-height: 80px; 
+    --font-display-lg: 48px; 
+    --font-display-lg-height: 52px; 
     --font-display-lg-weight: 500; 
 
     --font-display-md: 42px; 

@@ -4,7 +4,6 @@ import TextScroll from "./textScroll"
 import Star from "../../assets/Star.svg"
 import FillerImg from "../../assets/tripleFillerImg.jpg"
 import { motion } from "framer-motion"
-import Blur from "../blur"
 import "../../App.css";
 import "./filler.css"; 
 
@@ -27,7 +26,7 @@ const Filler = () => {
             <div className="filler mid"></div>
             <div className="filler right">
               <h2>Comfort</h2>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero aspernatur et vel voluptatem sint laborum ab. Harum, cum! Excepturi quas ad natus rem quam voluptatem nam laborum consequatur esse sit.</p>
+              <p>Experience the ultimate in comfort and luxury with our plush seating options and sumptuous bedding. Whether you're entertaining guests or relaxing at home, our furniture will create an ambiance of luxury and opulence.</p>
               <Button variant="dark" />
             </div>
         </div>

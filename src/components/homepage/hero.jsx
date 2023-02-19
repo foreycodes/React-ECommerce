@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion, useScroll, useTransform } from "framer-motion"
 import Button from "../button"
+import Blur from "../../components/blur"
 import "../../App.css";
 import "./hero.css";
 
@@ -15,6 +16,7 @@ const Hero = () => {
     <div>
       <div 
       className="hero-wrapper">
+        <Blur />
           <motion.div
           style={{opacity}}
           className="hero-left-wrapper">
@@ -25,7 +27,7 @@ const Hero = () => {
          <motion.div 
           style={{opacity}}
           className="hero-right-wrapper">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.</p>
+            <p>Indulge in the epitome of sophistication and style with our exquisite collection of luxury furniture. Each piece is meticulously crafted by skilled artisans using the finest materials to bring you exceptional quality and timeless beauty.</p>
             <Button variant='light'/>
          </motion.div>
       </div>

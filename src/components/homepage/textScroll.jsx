@@ -6,7 +6,7 @@ import "./textScroll.css"
 const TextScroll = () => {
 
 const { scrollYProgress } = useScroll();
-const x = useTransform(scrollYProgress, [0, 1], [1000, -5000]);
+const x = useTransform(scrollYProgress, [0, 1], [500, -5000]);
 
 return (
     <>
